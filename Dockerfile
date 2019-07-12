@@ -13,4 +13,4 @@ ENV PORT 9000
 
 EXPOSE $PORT
 
-CMD java -cp "*" -mx4g edu.stanford.nlp.pipeline.StanfordCoreNLPServer
+CMD java -cp "/opt/corenlp/" -mx4g edu.stanford.nlp.pipeline.StanfordCoreNLPServer
